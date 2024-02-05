@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style> 
-    *{
-        font-family: sans-serif;
-    }
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        min-height: 100vh;
-    }
+    <title>CSIPT101 - Activity 1</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
 
-    footer {
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        footer {
             position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
         }
+
         p {
             text-align: center;
         }
     </style>
 </head>
+
 <body>
     <h1>Hello!</h1>
+    <button onclick="window.location.replace('home.html')">Go to home page</button>
     <button onclick="window.location.replace('login.html')">Go to login page</button>
     <footer>
         <p>Copyright &copy; by Eli Bautista 2024</p>
     </footer>
 </body>
+
 </html>
